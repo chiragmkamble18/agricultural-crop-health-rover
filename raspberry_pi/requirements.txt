@@ -1,0 +1,5 @@
+# Starter list only. Confirm compatible versions on the target Pi before release.
+ultralytics
+pyserial
+opencv-python
+picamera2

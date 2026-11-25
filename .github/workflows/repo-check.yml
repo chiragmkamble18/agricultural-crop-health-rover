@@ -1,0 +1,13 @@
+name: Repository checks
+on: [push, pull_request]
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required files
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f docs/hardware.md
+          test -f docs/operation-and-safety.md

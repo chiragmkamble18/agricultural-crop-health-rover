@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+yolo-cpu/
+# Model weights / datasets - check redistribution rights
+*.pt
+*.pth
+*.onnx
+*.tflite
+datasets/
+data/
+# Generated output
+runs/
+*.csv
+*.log
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
